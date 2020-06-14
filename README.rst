@@ -19,6 +19,7 @@ SqrlWiki
 SqrlWiki is a wiki for personal notes.
 
 
+
 * Free software: BSD license
 * Documentation: https://sqrlwiki.readthedocs.io.
 
@@ -26,7 +27,9 @@ SqrlWiki is a wiki for personal notes.
 Features
 --------
 
-* TODO
+* SQLite3 backed, edit-through-browser
+* Automatic links for existing topics
+* Link related topics
 
 Credits
 -------
