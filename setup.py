@@ -14,6 +14,8 @@ requirements = [
     'Click>=7.0',
     'uvloop==0.14.0',
     'quart==0.12.0',
+    'peewee==3.13.3',
+    'passlib==1.7.2',
     ]
 
 setup_requirements = ['pytest-runner', ]

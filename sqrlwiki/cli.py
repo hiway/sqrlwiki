@@ -4,10 +4,13 @@ import click
 
 from sqrlwiki.sqrlwiki import debug
 from sqrlwiki.sqrlwiki import run
+from sqrlwiki.models import database_init
+
 
 @click.group()
-def main(args=None):
-    pass
+@click.option('--database', default=f'sqrlwiki.db')
+def main(database):
+    database_init(database)
 
 
 @main.command('run')
